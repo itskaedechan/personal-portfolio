@@ -2,7 +2,7 @@ export default function Header() {
   return (
     <header>
       <nav>
-        <ul className="text-md lora flex gap-6 tracking-wide">
+        <ul className="font-cg flex gap-6 text-lg tracking-wide">
           <li>Home</li>
           <li>Projects</li>
           <li>Contact</li>

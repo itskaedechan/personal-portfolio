@@ -17,18 +17,6 @@
   text-rendering: optimizeLegibility;
 }
 
-.lora {
-  font-family: "Lora", serif;
-  font-weight: 300;
-  text-rendering: optimizeLegibility;
-}
-
-.lora-bold {
-  font-family: "Lora", serif;
-  font-weight: 400;
-  text-rendering: optimizeLegibility;
-}
-
 html,
 body {
   margin: 0;

@@ -3,7 +3,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        jacques: ['"Jacques Francois"', "serif"],
+        jacques: ['"Jacques Francois"', "serif"], // Existing font
+        cg: ['"Cormorant Garamond"', "serif"], // New short alias
       },
     },
   },

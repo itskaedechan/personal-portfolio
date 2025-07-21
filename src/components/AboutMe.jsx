@@ -1,18 +1,18 @@
 export default function AboutMe() {
   return (
-    <div className="grid auto-rows-5 off-white w-[240px] h-[649px] bg-cream justify-center shadow aboutMe">
+    <div className="auto-rows-5 off-white bg-cream aboutMe grid h-[649px] w-[240px] justify-center shadow">
       <img
         src="/images/profile-photo.jpg"
         alt="profile-photo"
-        className="w-[140px] h-[140px] rounded-full object-cover border-2 border-white mx-auto"
+        className="mx-auto h-[140px] w-[140px] rounded-full border-2 border-white object-cover"
       />
       <div>
         <img
           src="/icons/clover.svg"
           alt="clover-icon"
-          className="w-[50px] h-[50px]"
+          className="h-[50px] w-[50px]"
         />
-        <h1 className="lora-bold charcoal-text leading-snug">
+        <h1 className="font-cg charcoal-text font-medium leading-snug">
           About <br /> Me
         </h1>
       </div>
