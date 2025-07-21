@@ -1,8 +1,8 @@
 export default function Header() {
   return (
-    <header className="text-left">
+    <header>
       <nav>
-        <ul className="text-md flex gap-6 lora tracking-wide">
+        <ul className="text-md lora flex gap-6 tracking-wide">
           <li>Home</li>
           <li>Projects</li>
           <li>Contact</li>
