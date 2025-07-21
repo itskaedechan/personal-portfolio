@@ -19,8 +19,14 @@
 
 .lora {
   font-family: "Lora", serif;
-  font-weight: 400; /* Explicitly set weight for Lora */
-  text-rendering: optimizeLegibility; /* Apply only when Lora is used */
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+}
+
+.lora-bold {
+  font-family: "Lora", serif;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
 }
 
 html,
@@ -32,8 +38,13 @@ body {
 }
 
 h1 {
-  font-size: 3.2em;
+  font-size: 2.25em;
   line-height: 1.1;
+}
+
+p {
+  font-size: 0.875em;
+  line-height: 1.5em;
 }
 
 header {
@@ -70,4 +81,12 @@ header {
 
 .bg-cream {
   background-color: #d9d9d9;
+}
+
+.shadow {
+  box-shadow: 5px 5px 50px 2px rgba(0, 0, 0, 0.25);
+}
+
+.aboutMe {
+  padding: 37px 25px;
 }
