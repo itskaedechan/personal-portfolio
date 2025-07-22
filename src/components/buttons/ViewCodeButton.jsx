@@ -1,6 +1,6 @@
 export default function LiveDemoButton() {
   return (
-    <button className="charcoal-text rounded-[5px] bg-transparent px-[16px] py-[6px] font-cg font-medium ring-2 ring-inset ring-[#3333334D]">
+    <button className="charcoal-text rounded-md bg-transparent px-4 py-1.5 font-cg text-base font-medium ring-2 ring-inset ring-[#3333334D]">
       {" "}
       View Code
     </button>

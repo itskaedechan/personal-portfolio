@@ -3,11 +3,11 @@ import ViewCodeButton from "./buttons/ViewCodeButton";
 
 export default function ProjectCard() {
   return (
-    <div className="bg-cream h-auto w-[434px] rounded-[5px] pb-6 shadow-[0px_4px_4px_0px_rgba(0,_0,_0,_0.2)] outline outline-[0.5px] outline-[#93a87e]">
+    <div className="bg-cream h-auto w-[434px] rounded-md pb-6 shadow-[0px_4px_4px_0px_rgba(0,_0,_0,_0.2)] outline outline-[0.5px] outline-[#93a87e]">
       <img
         src="/images/portfolio.jpg"
         alt="Portfolio"
-        className="rounded-[5px] object-cover"
+        className="rounded-md object-cover"
       />
       <h2 className="mx-5 mb-1 mt-4 text-2xl font-medium">Portfolio</h2>
       <p className="mx-8">

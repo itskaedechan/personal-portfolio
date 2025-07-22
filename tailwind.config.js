@@ -3,8 +3,11 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        jacques: ['"Jacques Francois"', "serif"], // Existing font
-        cg: ['"Cormorant Garamond"', "serif"], // New short alias
+        jacques: ['"Jacques Francois"', "serif"],
+        cg: ['"Cormorant Garamond"', "serif"],
+      },
+      spacing: {
+        13: "52px",
       },
     },
   },
