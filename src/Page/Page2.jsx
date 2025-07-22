@@ -8,7 +8,7 @@ export default function Page2() {
   return (
     <div className="auto-rows-2 mx-auto grid justify-items-center">
       <Header />
-      <div className="flex justify-center gap-5">
+      <div className="flex justify-center gap-[52px]">
         <AboutMe />
         <Body />
       </div>

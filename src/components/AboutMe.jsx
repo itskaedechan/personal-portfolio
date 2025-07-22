@@ -1,6 +1,6 @@
 export default function AboutMe() {
   return (
-    <div className="auto-rows-5 off-white bg-cream aboutMe grid h-[649px] w-[240px] justify-center shadow">
+    <div className="auto-rows-5 off-white bg-cream aboutMe sticky top-0 grid h-[649px] w-[240px] justify-center shadow">
       <img
         src="/images/profile-photo.jpg"
         alt="profile-photo"
@@ -12,7 +12,7 @@ export default function AboutMe() {
           alt="clover-icon"
           className="h-[50px] w-[50px]"
         />
-        <h1 className="font-cg charcoal-text font-medium leading-snug">
+        <h1 className="charcoal-text font-cg font-medium leading-snug">
           About <br /> Me
         </h1>
       </div>
