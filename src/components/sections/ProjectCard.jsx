@@ -1,5 +1,5 @@
-import LiveDemoButton from "./buttons/LiveDemoButton";
-import ViewCodeButton from "./buttons/ViewCodeButton";
+import LiveDemoButton from "../buttons/LiveDemoButton";
+import ViewCodeButton from "../buttons/ViewCodeButton";
 
 export default function ProjectCard() {
   return (
