@@ -1,20 +1,20 @@
 [
   {
-    "id": 1,
+    "id": "github",
     "social": "Github",
     "img": "/icons/github-icon.svg",
     "link": "https://github.com/itskaedechan",
     "hover": "Github"
   },
   {
-    "id": 2,
+    "id": "linkedin",
     "social": "LinkedIn",
     "img": "/icons/linkedin-icon.svg",
     "link": "https://www.linkedin.com/in/maria-anne-san-andres/",
     "hover": "LinkedIn"
   },
   {
-    "id": 3,
+    "id": "email",
     "social": "Email",
     "img": "/icons/mail-icon.svg",
     "link": "mailto:yourname@example.com",

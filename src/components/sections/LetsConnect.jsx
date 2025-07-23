@@ -1,4 +1,4 @@
-import contacts from "../../data/contacts";
+import contacts from "../data/contacts.json";
 
 export default function LetsConnect() {
   return (
