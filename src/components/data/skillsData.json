@@ -1,0 +1,43 @@
+[
+  {
+    "id": "coreskills",
+    "title": "Core Skills",
+    "skills": [
+      "Problem-Solving",
+      "Debugging & Troubleshooting",
+      "Code Refactoring & Optimization",
+      "Requirements Analysis",
+      "Adaptability"
+    ]
+  },
+  {
+    "id": "languages",
+    "title": "Languages",
+    "skills": ["JavaScript (ES6+)", "HTML5", "CSS"]
+  },
+  {
+    "id": "frameworkslibraries",
+    "title": "Frameworks & Libraries",
+    "skills": ["ReactJS", "Bootstrap", "Tailwind CSS (basic)"]
+  },
+  {
+    "id": "versionctrl",
+    "title": "Version Control",
+    "skills": ["Git (branching, merging, pull requests) via CLI"]
+  },
+  {
+    "id": "apiintegration",
+    "title": "API Integration",
+    "skills": ["RESTful APIs (JSON fetching & dynamic UI)"]
+  },
+  {
+    "id": "tools",
+    "title": "Tools",
+    "skills": [
+      "Visual Studio Code",
+      "npm (basic dependency management)",
+      "Oracle RightNow Service Cloud",
+      "Powershell"
+    ]
+  }
+]
