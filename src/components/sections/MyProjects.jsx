@@ -1,10 +1,8 @@
-import ProjectCard from "./ProjectCard";
+import ProjectCard from "../ui/ProjectCard";
 
 export default function MyProjects() {
   return (
-    <div className="ml-10 flex flex-col gap-8">
-      <ProjectCard />
-      <ProjectCard />
+    <div className="ml-10 flex flex-col">
       <ProjectCard />
     </div>
   );

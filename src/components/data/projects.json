@@ -4,6 +4,7 @@
     "title": "Personal Portfolio",
     "description": "Explore the personal portfolio of Maria Anne San Andres, a React developer who designed and built this site from the ground up. Leveraging Tailwind CSS, it effectively presents diverse skills and credentials through a thoughtfully crafted user experience.",
     "image": "/images/portfolio.jpg",
+    "alt": "Personal Portfolio preview",
     "demolink": "to be populated",
     "codelink": "https://github.com/itskaedechan/personal-portfolio"
   },
@@ -12,6 +13,7 @@
     "title": "Chef Claude",
     "description": "Chef Claude is a React-based web application that helps users generate recipe ideas based on the ingredients they have on hand. The project concept was inspired by a Scrimba tutorial, and the implementation was developed independently.",
     "image": "/images/chef-claude.jpg",
+    "alt": "Chef Claude preview",
     "demolink": "https://chefclaude-ten.vercel.app/",
     "codelink": "https://github.com/itskaedechan/chefclaude"
   },
@@ -20,6 +22,7 @@
     "title": "Travel Journal",
     "description": "A simple React-based travel journal web application built with Tailwind CSS. Users can view a list of travel destinations, each with photos, descriptions, and Google Maps links. Layout is inspired by Scrimba",
     "image": "/images/travel-journal.jpg",
+    "alt": "Travel Journal preview",
     "demolink": "https://traveljournal-ten.vercel.app/",
     "codelink": "https://github.com/itskaedechan/traveljournal"
   }
