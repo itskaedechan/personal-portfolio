@@ -84,3 +84,11 @@ header {
 footer {
   font-family: "Inter", sans-serif;
 }
+
+.skill-item::after {
+  content: " · ";
+}
+
+.skill-item:last-of-type::after {
+  content: "";
+}
