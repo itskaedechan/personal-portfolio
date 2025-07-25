@@ -1,6 +1,5 @@
-import LiveDemoButton from "../buttons/LiveDemoButton";
-import ViewCodeButton from "../buttons/ViewCodeButton";
 import projects from "../data/projects.json";
+import Button from "../buttons/Button";
 
 export default function ProjectCard() {
   return (
@@ -21,10 +20,12 @@ export default function ProjectCard() {
           </h2>
           <p className="mx-8">{project.description}</p>
           <div className="mr-5 mt-5 flex justify-end gap-3">
-            <LiveDemoButton liveDemoUrl={project.demolink} />
-            {console.log(project.demolink)}
-            <ViewCodeButton viewCodeUrl={project.codelink} />
-            {console.log(project.codelink)}
+            <Button variant="primary" href={project.demolink}>
+              Live Demo
+            </Button>
+            <Button variant="secondary" href={project.codelink}>
+              View Code
+            </Button>
           </div>
         </div>
       ))}
