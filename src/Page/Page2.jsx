@@ -1,4 +1,3 @@
-import React from "react";
 import Header from "../components/Header";
 import AboutMe from "../components/sections/AboutMe";
 import Body from "../components/Body";
