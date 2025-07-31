@@ -1,5 +1,4 @@
 import contacts from "../data/contacts.json";
-import ResumeButton from "../buttons/ResumeButton";
 import Button from "../buttons/Button";
 
 export default function LetsConnect() {
