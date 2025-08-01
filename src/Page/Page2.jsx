@@ -16,7 +16,6 @@ export default function Page2() {
       {show && (
         <div className="auto-rows-2 mx-auto grid justify-items-center">
           <Header />
-
           <div className="flex justify-center gap-13">
             <AboutMe />
             <Body />
