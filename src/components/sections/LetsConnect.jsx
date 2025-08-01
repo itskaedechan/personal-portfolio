@@ -3,7 +3,7 @@ import Button from "../buttons/Button";
 
 export default function LetsConnect() {
   return (
-    <div className="mt-3 flex flex-col justify-center space-y-6">
+    <div id="contact" className="mt-3 flex flex-col justify-center space-y-6">
       <div className="flex justify-center gap-6 sm:gap-8 md:gap-12">
         {contacts.map((social) => (
           <a

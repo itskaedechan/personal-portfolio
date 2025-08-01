@@ -11,7 +11,7 @@ export default function Page2() {
     return setShow(true);
   };
   return (
-    <div className="auto-rows-2 mx-auto grid justify-items-center">
+    <div>
       {!show && <Hero className="mx-auto" onExploreClick={ClickExplore} />}
       {show && (
         <div className="auto-rows-2 mx-auto grid justify-items-center">

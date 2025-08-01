@@ -2,7 +2,7 @@ import skillsData from "../data/skillsData.json";
 
 export default function Skills() {
   return (
-    <div className="mb-10 ml-5">
+    <div id="skills" className="mb-10 ml-5">
       {skillsData.map((category) => (
         <div key={category.id} id={category.id}>
           <p className="mb-1 font-bold">{category.title}: </p>

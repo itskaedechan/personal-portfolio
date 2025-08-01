@@ -1,6 +1,9 @@
 export default function AboutMe() {
   return (
-    <div className="off-white bg-cream aboutMe sticky top-0 grid h-[649px] w-[240px] justify-center py-9 shadow">
+    <div
+      id="home"
+      className="off-white bg-cream aboutMe sticky top-0 grid h-[649px] w-[240px] justify-center py-9 shadow"
+    >
       <div className="auto-rows-5 mx-auto grid max-w-[185px]">
         <img
           src="/images/profile-photo.jpg"

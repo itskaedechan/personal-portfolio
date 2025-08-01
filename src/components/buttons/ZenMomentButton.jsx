@@ -52,7 +52,7 @@ export default function ZenMoment() {
   }, [shouldScroll, data]);
 
   return (
-    <div className="mt-10 flex justify-center">
+    <div id="zen" className="mt-10 flex justify-center">
       {!data ? (
         <Button variant="zen" onClick={getQuote}>
           Click for a Zen Moment
