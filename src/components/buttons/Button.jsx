@@ -10,10 +10,10 @@ export default function Button({
 
   let variantStyle = "";
   if (["primary", "zen", "resume"].includes(variant)) {
-    variantStyle = `bg-accent text-[#FFFFFF] ${variant == "zen" ? "py-2.5 w-auto" : ""}`;
+    variantStyle = `bg-accent text-[#FFFFFF] transition-transform duration-200 ease-in-out hover:-translate-y-1 hover:scale-105 hover:bg-[#3e4b3d] ${variant == "zen" ? "py-2.5 w-auto" : ""}`;
   } else if (variant == "secondary") {
     variantStyle =
-      "charcoal-text bg-transparent ring-2 ring-inset ring-[#3333334D]";
+      "charcoal-text bg-transparent ring-2 ring-inset ring-[#3333334D] transition-transform duration-200 ease-in-out hover:-translate-y-1 hover:scale-105 hover:bg-[#3333330D] hover:ring-[#33333380]";
   }
 
   const classes = `${baseStyle} ${variantStyle} ${className}`;

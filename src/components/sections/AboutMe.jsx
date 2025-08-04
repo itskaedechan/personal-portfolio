@@ -1,7 +1,12 @@
+import { motion } from "framer-motion";
+
 export default function AboutMe() {
   return (
-    <div
+    <motion.div
       id="home"
+      initial={{ x: -30, opacity: 0 }}
+      animate={{ x: 0, opacity: 1 }}
+      transition={{ duration: 1.8, delay: 1, ease: "easeOut" }}
       className="off-white bg-cream aboutMe sticky top-0 grid h-[649px] w-[240px] justify-center py-9 shadow"
     >
       <div className="auto-rows-5 mx-auto grid max-w-[185px]">
@@ -28,6 +33,6 @@ export default function AboutMe() {
           turning ideas into functional and accessible web applications.
         </p>
       </div>
-    </div>
+    </motion.div>
   );
 }

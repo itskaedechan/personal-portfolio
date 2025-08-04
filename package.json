@@ -11,10 +11,12 @@
   },
   "dependencies": {
     "@tailwindcss/aspect-ratio": "^0.4.2",
+    "framer-motion": "^12.23.12",
     "nanoid": "^5.1.5",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "react-scroll": "^1.9.3"
+    "react-scroll": "^1.9.3",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@eslint/js": "^9.30.1",

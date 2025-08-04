@@ -13,7 +13,11 @@ export default function LetsConnect() {
             key={social.id}
             className="group relative flex"
           >
-            <img src={social.img} alt={social.social} />
+            <img
+              src={social.img}
+              alt={social.social}
+              className="transition-transform duration-200 ease-in-out hover:scale-110"
+            />
             <span className="text-md absolute left-10 top-9 rounded-md bg-gray-100 px-2 py-1 opacity-0 shadow transition duration-200 group-hover:opacity-100">
               {social.hover}
             </span>
