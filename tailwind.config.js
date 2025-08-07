@@ -26,11 +26,16 @@ export default {
           "0%": { transform: "translateX(-100%)", opacity: "0" },
           "100%": { transform: "translateX(0)", opacity: "1" },
         },
+        fadeOut: {
+          "0%": { opacity: "1" },
+          "100%": { opacity: "0" },
+        },
       },
       animation: {
         typing: "typing 3s steps(30, end) forwards",
         blink: "blink 0.7s step-end infinite",
         fadeIn: "fadeIn 1.5s ease-out forwards",
+        fadeOut: "fadeOut 0.5s ease-out forwards",
         slideInSlow: "slideInSlow 2s ease-in-out forwards",
       },
     },

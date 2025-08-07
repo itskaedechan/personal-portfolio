@@ -3,16 +3,17 @@ import Button from "../buttons/Button";
 
 export default function ZenMoment() {
   const [data, setData] = useState(null);
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
   const [shouldScroll, setShouldScroll] = useState(false);
 
   async function getQuote() {
     setLoading(true);
+    setError(null);
 
     try {
       const response = await fetch(
-        `https://thingproxy.freeboard.io/fetch/https://zenquotes.io/api/random?timestamp=${Date.now()}`,
+        `https://corsproxy.io/?https://zenquotes.io/api/random?timestamp=${Date.now()}`,
       );
 
       if (!response.ok) {
@@ -28,7 +29,7 @@ export default function ZenMoment() {
         setShouldScroll(true);
       }, 0);
     } catch (e) {
-      setError(e);
+      setError("Failed to fetch quote. Please try again later.");
       console.log("err", e);
     } finally {
       setLoading(false);
@@ -59,9 +60,13 @@ export default function ZenMoment() {
         </Button>
       ) : (
         <div className="my-24 w-full max-w-md">
-          <p className="charcoal-text text-center font-cg text-2xl font-medium">
+          <p
+            key={data}
+            className="charcoal-text animate-fadeIn text-center font-cg text-2xl font-medium"
+          >
             {data}
           </p>
+          {error && <p className="mt-4 text-sm text-red-600">{error}</p>}
           <div className="mt-10 flex justify-center">
             <Button variant="zen" onClick={getQuote} disabled={loading}>
               {loading ? "Loading..." : "More Zen"}

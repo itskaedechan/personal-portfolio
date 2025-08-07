@@ -9,7 +9,12 @@ export default function AboutMe() {
       transition={{ duration: 1.8, delay: 1, ease: "easeOut" }}
       className="off-white bg-cream aboutMe sticky top-0 grid h-[649px] w-[240px] justify-center py-9 shadow"
     >
-      <div className="auto-rows-5 mx-auto grid max-w-[185px]">
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 2, duration: 2, ease: "easeInOut" }}
+        className="auto-rows-5 mx-auto grid max-w-[185px]"
+      >
         <img
           src="/images/profile-photo.jpg"
           alt="profile-photo"
@@ -32,7 +37,7 @@ export default function AboutMe() {
           user-friendly websites using HTML, CSS, JavaScript, and React. I enjoy
           turning ideas into functional and accessible web applications.
         </p>
-      </div>
+      </motion.div>
     </motion.div>
   );
 }

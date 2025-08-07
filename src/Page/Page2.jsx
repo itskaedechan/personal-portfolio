@@ -5,14 +5,24 @@ import Body from "../components/Body";
 import Hero from "./Hero";
 
 export default function Page2() {
+  const [isFadingOut, setIsFadingOut] = useState(false);
   const [show, setShow] = useState(false);
 
   const ClickExplore = () => {
-    return setShow(true);
+    setIsFadingOut(true);
+    setTimeout(() => {
+      setShow(true);
+    }, 600);
   };
   return (
     <div>
-      {!show && <Hero className="mx-auto" onExploreClick={ClickExplore} />}
+      {!show && (
+        <Hero
+          className="mx-auto"
+          onExploreClick={ClickExplore}
+          isFadingOut={isFadingOut}
+        />
+      )}
       {show && (
         <div className="auto-rows-2 mx-auto grid justify-items-center">
           <Header />
