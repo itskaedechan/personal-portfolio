@@ -31,14 +31,17 @@ export default function ProjectCard() {
             initial="hidden"
             animate={isInView ? "visible" : "hidden"}
             variants={cardVariants}
-            custom={index === 0 ? 3.5 : 0} // first card delay 3.5s, others no delay
+            custom={index === 0 ? 3.5 : 0}
             className="bg-cream mb-9 h-auto w-[434px] rounded-md pb-5 shadow-[0px_4px_4px_0px_rgba(0,_0,_0,_0.2)] outline outline-[0.5px] outline-[#93a87e] last:mb-0"
           >
-            <img
-              src={project.image}
-              alt={project.alt}
-              className="rounded-md object-cover"
-            />
+            <div className="h-56 rounded-t-md transition-all duration-500 ease-out hover:shadow-lg hover:shadow-black/20">
+              <img
+                src={project.image}
+                alt={project.alt}
+                className="h-full w-full object-cover"
+              />
+            </div>
+
             <h2 className="mx-5 mb-1 mt-4 text-2xl font-semibold">
               {project.title}
             </h2>
