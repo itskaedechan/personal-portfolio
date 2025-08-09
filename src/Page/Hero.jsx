@@ -1,10 +1,8 @@
-import React from "react";
 import Button from "../components/buttons/Button";
 
 export default function Hero({ onExploreClick, isFadingOut }) {
   return (
     <div className="bg flex h-screen items-center justify-center">
-      {/* this div below is the card part with the bg-cream */}
       <div
         className={`bg-cream mx-auto mt-5 flex h-[249px] w-[650px] flex-col justify-center px-13 pb-10 pt-16 font-jacques shadow ${isFadingOut ? "animate-fadeOut" : "animate-slideInSlow"}`}
       >
