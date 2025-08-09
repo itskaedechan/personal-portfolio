@@ -34,11 +34,11 @@ export default function ProjectCard() {
             custom={index === 0 ? 3.5 : 0}
             className="bg-cream mb-9 h-auto w-[434px] rounded-md pb-5 shadow-[0px_4px_4px_0px_rgba(0,_0,_0,_0.2)] outline outline-[0.5px] outline-[#93a87e] last:mb-0"
           >
-            <div className="h-56 rounded-t-md transition-all duration-500 ease-out hover:shadow-lg hover:shadow-black/20">
+            <div className="h-56 transition-all duration-500 ease-out hover:shadow-lg hover:shadow-black/20">
               <img
                 src={project.image}
                 alt={project.alt}
-                className="h-full w-full object-cover"
+                className="h-full w-full rounded-t-md object-cover"
               />
             </div>
 
