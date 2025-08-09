@@ -5,7 +5,7 @@
     "description": "Explore the personal portfolio of Maria Anne San Andres, a React developer who designed and built this site from the ground up. Leveraging Tailwind CSS, it effectively presents diverse skills and credentials through a thoughtfully crafted user experience.",
     "image": "/images/portfolio.jpg",
     "alt": "Personal Portfolio preview",
-    "demolink": "to be populated",
+    "demolink": "https://mariannetamsa-dev.vercel.app/",
     "codelink": "https://github.com/itskaedechan/personal-portfolio"
   },
   {
