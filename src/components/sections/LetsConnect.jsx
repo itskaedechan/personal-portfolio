@@ -24,7 +24,11 @@ export default function LetsConnect() {
           </a>
         ))}
       </div>
-      <Button variant="resume" href="https://github.com/" className="mx-auto">
+      <Button
+        variant="resume"
+        href="https://bit.ly/4m8UWXS"
+        className="mx-auto"
+      >
         View My Resume
       </Button>
     </div>
