@@ -8,7 +8,7 @@ export default function LetsConnect() {
   const copyEmail = (email, id) => {
     navigator.clipboard.writeText(email);
     setCopiedId(id);
-    setTimeout(() => setCopiedId(null), 2000);
+    setTimeout(() => setCopiedId(null), 3000);
   };
 
   return (
