@@ -17,7 +17,8 @@
     "id": "email",
     "social": "Email",
     "img": "/icons/mail-icon.svg",
-    "link": "mailto:yourname@example.com",
-    "hover": "mariannetamsa@gmail.com"
+    "link": "mariannetamsa@gmail.com",
+    "hover": "mariannetamsa@gmail.com",
+    "type": "email"
   }
 ]
