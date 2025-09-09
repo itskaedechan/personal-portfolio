@@ -14,6 +14,7 @@ export default function Header() {
       <Link
         to={name.link}
         {...linkProps}
+        offset={name.link === "contact" ? -120 : 0}
         className="inline-block transition-transform duration-300 hover:scale-110"
       >
         {name.name}

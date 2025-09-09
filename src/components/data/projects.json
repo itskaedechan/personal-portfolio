@@ -6,7 +6,8 @@
     "image": "/images/portfolio.jpg",
     "alt": "Personal Portfolio preview",
     "demolink": "https://mariannetamsa-dev.vercel.app/",
-    "codelink": "https://github.com/itskaedechan/personal-portfolio"
+    "codelink": "https://github.com/itskaedechan/personal-portfolio",
+    "category": "main"
   },
   {
     "id": "chefclaude",
@@ -15,7 +16,8 @@
     "image": "/images/chef-claude.jpg",
     "alt": "Chef Claude preview",
     "demolink": "https://chefclaude-ten.vercel.app/",
-    "codelink": "https://github.com/itskaedechan/chefclaude"
+    "codelink": "https://github.com/itskaedechan/chefclaude",
+    "category": "main"
   },
   {
     "id": "traveljournal",
@@ -24,6 +26,23 @@
     "image": "/images/travel-journal.jpg",
     "alt": "Travel Journal preview",
     "demolink": "https://traveljournal-ten.vercel.app/",
-    "codelink": "https://github.com/itskaedechan/traveljournal"
+    "codelink": "https://github.com/itskaedechan/traveljournal",
+    "category": "main"
+  },
+  {
+    "id": "poohstitch",
+    "title": "Winnie the Pooh and Friends",
+    "description": "This cross-stitch piece reflects the patience and attention to detail I bring to every interface I build, cultivated through a craft I've cherished since childhood.",
+    "image": "/images/winniethepooh.jpg",
+    "alt": "Pooh preview",
+    "category": "craft"
+  },
+  {
+    "id": "jesusstitch",
+    "title": "Sacred Heart of Jesus",
+    "description": "A work in progress, this Sacred Heart of Jesus cross-stitch showcases the precision and care I apply to intricate tasks, whether in my craft or coding projects.",
+    "image": "/images/sacredheartofjesus.jpg",
+    "alt": "Jesus preview",
+    "category": "craft"
   }
 ]
